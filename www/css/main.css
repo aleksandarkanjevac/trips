@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.form {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.link {
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.mssg {
+    color: green;
+}
+
+.active a{
+    background-color:green !important;
+}
+a.delete_map{
+    margin-top: 1px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+a.delete_map:hover{
+    text-decoration: none;
+
+}
